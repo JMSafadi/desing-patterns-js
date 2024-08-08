@@ -37,7 +37,7 @@ class MacOSCheckbox extends Checkbox {
   }
 }
 
-// Abstract Facotory
+// Abstract Facotory (interface)
 class GUIFactory {
   createButton() {
     throw new Error('Method createButton() must be implemented.')
